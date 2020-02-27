@@ -13,6 +13,9 @@
 		671D5B1123ACCBAF0069D0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671D5B1023ACCBAF0069D0CF /* Assets.xcassets */; };
 		671D5B1423ACCBAF0069D0CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671D5B1223ACCBAF0069D0CF /* LaunchScreen.storyboard */; };
 		671D5B1723ACCBAF0069D0CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 671D5B1623ACCBAF0069D0CF /* main.m */; };
+		671D5B1F23ACCD590069D0CF /* BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 671D5B1E23ACCD590069D0CF /* BWShareView.m */; };
+		67C5209E23B05D1400672F35 /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C5209D23B05D1400672F35 /* BWItemCollectionViewCell.m */; };
+		67C520A123B0613200672F35 /* BWItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C520A023B0613200672F35 /* BWItemModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		671D5B1323ACCBAF0069D0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		671D5B1523ACCBAF0069D0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		671D5B1623ACCBAF0069D0CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		671D5B1D23ACCD590069D0CF /* BWShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWShareView.h; sourceTree = "<group>"; };
+		671D5B1E23ACCD590069D0CF /* BWShareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWShareView.m; sourceTree = "<group>"; };
+		67C5209C23B05D1400672F35 /* BWItemCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWItemCollectionViewCell.h; sourceTree = "<group>"; };
+		67C5209D23B05D1400672F35 /* BWItemCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWItemCollectionViewCell.m; sourceTree = "<group>"; };
+		67C5209F23B0613200672F35 /* BWItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWItemModel.h; sourceTree = "<group>"; };
+		67C520A023B0613200672F35 /* BWItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWItemModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				671D5B0823ACCBAE0069D0CF /* AppDelegate.m */,
 				671D5B0A23ACCBAE0069D0CF /* ViewController.h */,
 				671D5B0B23ACCBAE0069D0CF /* ViewController.m */,
+				671D5B1D23ACCD590069D0CF /* BWShareView.h */,
+				671D5B1E23ACCD590069D0CF /* BWShareView.m */,
+				67C5209C23B05D1400672F35 /* BWItemCollectionViewCell.h */,
+				67C5209D23B05D1400672F35 /* BWItemCollectionViewCell.m */,
+				67C5209F23B0613200672F35 /* BWItemModel.h */,
+				67C520A023B0613200672F35 /* BWItemModel.m */,
 				671D5B0D23ACCBAE0069D0CF /* Main.storyboard */,
 				671D5B1023ACCBAF0069D0CF /* Assets.xcassets */,
 				671D5B1223ACCBAF0069D0CF /* LaunchScreen.storyboard */,
@@ -97,6 +112,7 @@
 		671D5AFC23ACCBAE0069D0CF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BW;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = syt;
 				TargetAttributes = {
@@ -142,8 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				671D5B0C23ACCBAE0069D0CF /* ViewController.m in Sources */,
+				67C520A123B0613200672F35 /* BWItemModel.m in Sources */,
 				671D5B1723ACCBAF0069D0CF /* main.m in Sources */,
 				671D5B0923ACCBAE0069D0CF /* AppDelegate.m in Sources */,
+				67C5209E23B05D1400672F35 /* BWItemCollectionViewCell.m in Sources */,
+				671D5B1F23ACCD590069D0CF /* BWShareView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
